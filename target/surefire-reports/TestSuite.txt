@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 12.356 s <<< FAILURE! - in TestSuite
+init(testngprogms.PerformLogin)  Time elapsed: 12.077 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 106
+Current browser version is 109.0.5414.120 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-UVUL5OT0', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007C1ED3+2236115]
+	Ordinal0 [0x007592F1+1807089]
+	Ordinal0 [0x006666FD+812797]
+	Ordinal0 [0x00688C6D+953453]
+	Ordinal0 [0x00684200+934400]
+	Ordinal0 [0x006819C9+924105]
+	Ordinal0 [0x006B806C+1146988]
+	Ordinal0 [0x006B7A6A+1145450]
+	Ordinal0 [0x006B18A6+1120422]
+	Ordinal0 [0x0068A73D+960317]
+	Ordinal0 [0x0068B71F+964383]
+	GetHandleVerifier [0x00A6E7E2+2743074]
+	GetHandleVerifier [0x00A608D4+2685972]
+	GetHandleVerifier [0x00852BAA+532202]
+	GetHandleVerifier [0x00851990+527568]
+	Ordinal0 [0x0076080C+1837068]
+	Ordinal0 [0x00764CD8+1854680]
+	Ordinal0 [0x00764DC5+1854917]
+	Ordinal0 [0x0076ED64+1895780]
+	BaseThreadInitThunk [0x75A16BD9+25]
+	RtlGetFullPathName_UEx [0x77BF8FD2+1218]
+	RtlGetFullPathName_UEx [0x77BF8F9D+1165]
+
+	at testngprogms.PerformLogin.init(PerformLogin.java:20)
+
